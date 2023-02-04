@@ -1,0 +1,34 @@
+* {
+  font-family: 'Arial','sans-serif';
+}
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+
+#body {
+  background-color: #edebeb;
+  padding: 20px;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header, #footer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
